@@ -1,0 +1,163 @@
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+#icon-convertable {
+	background: transparent url(../images/icon-convertable.png) no-repeat center center;
+}
+.wrap h2.convertable {
+	width: 288px;
+	height: 61px;
+	padding: 0;
+	background: transparent url(../images/convertable-logo.png) no-repeat 45px 0;
+	text-indent: -9999px;
+}
+.submit-btn {
+	padding-left: 36px;
+	margin-bottom: 20px;
+}
+#convertable-loading {
+	background: transparent url(../images/loading.gif) no-repeat center center;
+	height: 300px;
+}
+#convertable-pie-chart,
+#convertable-revenue-chart {
+	width: 31.9%;
+	height: 300px;
+	margin-right: 2%;
+	float: left;
+}
+#convertable-data-table {
+	width: 31.9%;
+	height: 300px;
+	float: right;
+}
+.convertable-label {
+	text-transform: uppercase;
+	color: #666;
+	margin: 2px 0;
+}
+#convertable-revenue,
+#convertable-total-leads {
+	font-size: 28px;
+	line-height: 34px;
+	font-weight: bold;
+}
+#convertable-today-leads,
+#convertable-week-leads,
+#convertable-month-leads {
+	font-size: 22px;
+	line-height: 26px;
+	font-weight: bold;
+	margin: 1px 0 8px 0;
+}
+tbody#lead-list td {
+	line-height: 2em;
+}
+th#lead-detail {
+	width: 45px;
+}
+th#lead-id {
+	width: 60px;
+}
+th#lead-date {
+	width: 160px;
+}
+th#lead-medium {
+	width: 120px;
+}
+th#lead-source {
+	width: 200px;
+}
+th#lead-status {
+	width: 120px;
+}
+th#lead-quoted {
+	width: 80px;
+}
+th#lead-awarded {
+	width: 80px;
+}
+.lead-detail {
+	border-radius: 10px 10px 10px 10px;
+	border-style: solid;
+	border-width: 1px;
+	float: left;
+	margin: 0;
+	cursor: pointer;
+	border-color: #CCC;
+	background: #FFF;
+	background: linear-gradient(to top, #DFDFDF, #FFF) repeat scroll 0 0 #F4F4F4;
+	background: -moz-linear-gradient(top,  #FFF 0%, #DFDFDF 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF), color-stop(100%,#DFDFDF)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #FFF 0%,#DFDFDF 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #FFF 0%,#DFDFDF 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #FFF 0%,#DFDFDF 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFF', endColorstr='#DFDFDF',GradientType=0 ); /* IE6-9 */
+}
+	.lead-detail > div {
+		background: url(../images/arrows.png) no-repeat scroll 0 -108px transparent;
+		height: 15px;
+		width: 15px;	
+	}
+.lead-detail.expanded > div {
+	background: url(../images/arrows.png) no-repeat scroll 0 0 transparent;
+	border-width: 1px;
+}
+.lead-detail.loading {
+	border-width: 0px;
+}
+.lead-detail.loading > div {
+	background: url(../images/lead-loader.gif) no-repeat scroll 0 0 transparent;
+}
+img.convertable-icon {
+	padding-right:8px;
+	vertical-align: middle;
+}
+.inline-editor h4 {
+	font-size: 108%;
+}
+.inline-editor h5 {
+	font-size: 100%;
+	margin: .4em 0;
+}
+.inline-edit-col label {
+	clear: left;
+	cursor: default;
+}
+.inline-edit-row fieldset label span.title {
+	width: 9em;
+	white-space: nowrap;
+}
+.inline-edit-row fieldset label span.input-text-wrap {
+	margin-left: 9em;
+	padding-left: .5em;
+	line-height: 1.8em;
+	word-wrap: break-word;
+}
+.inline-edit-row fieldset label span.input-text-wrap.textarea,
+.inline-edit-row fieldset label span.input-text-wrap.textareaW {
+	line-height: 1.3em;
+}
+.inline-edit-row fieldset textarea.long {
+	word-wrap: break-word;
+	border: none;
+	max-width: 90%;
+}
+.inline-edit-row fieldset label textarea.notes {
+	height: 8em;
+}
+.inline-edit-row ul.pvisits {
+	list-style-type: square;
+	margin: 0 0 0 1.5em;
+	padding: 0;
+	font-size: 11px;
+}
+.inline-edit-row ul.pvisits li {
+	line-height: 1.4em;
+	margin: 0;
+	padding: 0;
+}

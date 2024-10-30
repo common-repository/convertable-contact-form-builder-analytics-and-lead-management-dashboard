@@ -1,0 +1,165 @@
+#form-builder {
+	padding: 15px;
+}
+
+ul.frmb {
+	padding-left: 0px;
+	list-style-type: none;
+}
+
+.frmb li {
+	margin-bottom: 5px;
+	padding: 10px;
+	border: 1px solid #CCC;
+	background: #FFF;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.frmb li:hover {
+	border: 1px dashed #666;
+}
+
+.frmb .legend {
+	cursor: move;
+}
+
+.frmb .legend .toggle-form {
+	float: right;
+}
+
+.frm-elements {
+	padding: 5px 0;
+}
+.frmb .frm-elements li {
+	margin: 2px 0;
+	padding: 3px;
+	border: none;
+	background: none;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	list-style: none;
+}
+.frm-elements label {
+	width: 20%;
+	float: left;
+	margin-left: 5px;
+	line-height: 24px;
+}
+
+.frm-elements .false-label {
+	width: 20%;
+	float: left;
+	margin-left: 5px;
+	line-height: 24px;
+}
+
+.frm-elements input[type="text"] {
+	float: left;
+	width: 70%;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.2) inset;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 7px;
+}
+
+.frm-elements .fields {
+	width: 70%;
+	float: left;
+}
+
+.frm-elements .fields input[type=checkbox],
+.frm-elements .fields input[type=radio] {
+	float: left;
+	margin-right: 10px;
+}
+
+.frm-elements .false-label,
+.frm-elements .fields { margin-top: 10px }
+
+.frm-elements .fields div {
+	clear: both;
+	float: left;
+	width: 99%;
+}
+
+.frm-elements .fields input[type="text"] {
+	width: 75%;
+	border: 1px solid #CCC;
+	padding: 2px;
+	box-shadow: none;
+}
+
+.frm-elements .fields label.auto {
+	width: auto;
+	margin: 0 0 5px 0;
+}
+
+.frm-elements .fields .remove {
+	margin-left: 10px;
+	line-height: 24px;
+}
+
+.frm-elements .fields .add-area {
+	position: relative;
+	left: -30px;
+	line-height: 0;
+}
+
+.frm-elements .fields .add-area .add {
+	clear: both;
+	display: block;
+	width: 16px;
+	height: 16px;
+	text-indent: -9999px;
+	background: transparent url(../images/add.png) no-repeat top left;
+}
+.frm-elements .fields a.remove {
+	clear: right;
+	float: left;
+	display: block;
+	width: 16px;
+	height: 16px;
+	text-indent: -9999px;
+	background: transparent url(../images/cross.png) no-repeat top left;
+}
+
+.frm-elements:after,
+.frm-fld:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.frm-elements,
+.frm-fld { display: inline-block }
+
+.frm-elements,
+.frm-fld { display: block }
+
+.del-button {
+	float: right;
+	margin-right: 10px;
+}
+
+.frm-elements .fields .hide {
+	display: none;
+}
+
+/* html display helpers */
+textarea, .multi-row span { display: block; }
+
+#controls {
+	padding: 5px;
+}
+#controls select.frmb-control {
+	width: 95%;
+	height: auto;
+	padding: 4px 2px;
+	font-size: 16px;
+}
